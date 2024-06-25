@@ -1,0 +1,23 @@
+// Inicia o git (repositório) no seu projeto
+git init
+
+// Verificar alterações de pastas e arquivos no projeto
+git status
+
+// Adiciona todos os arquivos e pastas modificados ao stage area
+git add .
+
+// Adiciona um arquivo ao stage area
+git add NOMEDOARQUIVO
+
+// Remove um arquivo do stage area
+git rm --cached NOMEDOARQUIVO
+
+// Cria e descreve um ponto na história
+git commit -m "mensagem/descrição aqui"
+
+// Restaura o arquivo, desfazendo as alterações
+git restore NOMEDOARQUIVO
+
+// Histórico de commits do projeto
+git log
